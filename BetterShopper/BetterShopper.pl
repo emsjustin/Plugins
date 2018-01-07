@@ -88,7 +88,7 @@ sub on_configModify {
 		message "[".PLUGIN_NAME."] Config set to 'on' shopper will be active.\n", 'success';
 		return changeStatus(ACTIVE);
 	} else {
-		message "[".PLUGIN_NAME."] Config set to 'on' shopper will be active.\n", 'success';
+		message "[".PLUGIN_NAME."] Config set to 'off' shopper will be inactive.\n", 'success';
 		return changeStatus(INACTIVE);
 	}
 }
